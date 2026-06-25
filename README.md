@@ -1,3 +1,4 @@
+<img width="528" height="493" alt="Screenshot at 2026-06-25 22-55-00" src="https://github.com/user-attachments/assets/b0b2620b-dd32-479a-996f-3dddcd921d6d" />
 # fsmp
 FSMP - Fucking Simple Music Player
 
