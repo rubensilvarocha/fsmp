@@ -22,11 +22,9 @@ class FFplayGTKPlaylistPlayer(Gtk.Window):
         self.shuffle_enabled = False
 
         self.filters = {
-            "Normal (None)": "loudnorm=I=-16:TP=-1.5:LRA=11",
-            "Extra Stereo": "extrastereo=m=2, loudnorm=I=-16:TP=-1.5:LRA=11",
-            "Wide Stereo": "stereowiden, loudnorm=I=-16:TP=-1.5:LRA=11",
-            "Fucking Amazing Sound": "extrastereo=m=1.5, stereowiden, loudnorm=I=-16:TP=-1.5:LRA=11",
-        }
+            "Normal": "loudnorm=I=-16:TP=-1.5:LRA=11",
+            "Fucking Great Sound": "extrastereo=m=2, loudnorm=I=-16:TP=-1.5:LRA=11",
+            }
 
         # Main Layout (Vertical Box)
         vbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=10)
